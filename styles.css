@@ -1,7 +1,47 @@
 
-/* top of page and header styling */ 
+
+/* 
+    top of page and header styling 
+    this is also a container for the _header block_
+*/ 
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
+}
+
+.heading {
+    display: flex;
+    font-size: 24px;
+    font-weight: bolder;
+    align-items: center;
+    margin: 10px;
+}
 
 
-header {
+/* container for the links */
+
+.containerLinks {
+    display: flex;  
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+    margin: 10px;
+}
+
+.links  {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* container for the main block underneath the header */ 
+
+.container {
+    background-color: #1F2937;
     
 }
