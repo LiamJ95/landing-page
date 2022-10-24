@@ -1,4 +1,6 @@
-
+body {
+    margin: 0;
+}
 
 /* 
     top of page and header styling 
@@ -15,7 +17,6 @@
 }
 
 .heading {
-    display: flex;
     font-size: 24px;
     font-weight: bolder;
     align-items: center;
@@ -43,5 +44,56 @@
 
 .container {
     background-color: #1F2937;
-    
+    height: 250px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+
+.text-container {
+    flex: 1;
+}
+
+.hero-text {
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: -5px;
+}
+
+
+p {
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.sign-up {
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.grey-box {
+    display: flex;
+    background-color: grey;
+    height: 185px;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: #3882F6;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
