@@ -53,14 +53,16 @@ body {
 
 .text-container {
     flex: 1;
+
 }
 
 .hero-text {
     color: #F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bolder;
-    margin-bottom: -5px;
+    margin-top: -15px;
+    margin-bottom: -15px;
 }
 
 
@@ -96,4 +98,24 @@ button {
     color: #E5E7EB;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+}
+
+/* container and styles for the boxes + random information section */
+
+h5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #1F2937;
+}   
+
+
+.box1 {
+    border: #3882F6;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
